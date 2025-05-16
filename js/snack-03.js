@@ -54,4 +54,9 @@ let mammiferi = []
 for (let i = 0; i < animali.length; i++) {
     const animale = animali[i];
     console.log(animale)
+    if (animale.classe === "mammiferi") {
+        mammiferi.push(animale)
+    }
 }
+console.log(mammiferi)
+
