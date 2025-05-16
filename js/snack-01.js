@@ -69,6 +69,14 @@ for (let i = 0; i < automobili.length; i++) {
     const auto = automobili[i];
     console.log(auto)
 
-
-
+    if (auto.alimentazione === "Benzina") {
+        autoBenzina.push(auto)
+    } else if (auto.alimentazione === "Diesel") {
+        autoDiesel.push(auto)
+    } else {
+        altreAuto.push(auto)
+    }
 }
+console.log(autoBenzina)
+console.log(autoDiesel)
+console.log(altreAuto)
