@@ -31,3 +31,15 @@ const persone = [
 ]
 console.log(persone)
 
+let persone2 = []
+
+for (let i = 0; i < persone.length; i++) {
+    const persona = persone[i];
+    console.log(i, persona)
+    if (persona.eta >= 18) {
+        persone2.push(`${persona.nome} ${persona.cognome} può guidare poichè ha ${persona.eta} anni`)
+    } else {
+        persone2.push(`${persona.nome} ${persona.cognome} non può guidare poichè ha ${persona.eta} anni`)
+    }
+}
+console.log(persone2)
