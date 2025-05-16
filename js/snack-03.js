@@ -51,3 +51,7 @@ const animali = [
 console.log(animali)
 let mammiferi = []
 
+for (let i = 0; i < animali.length; i++) {
+    const animale = animali[i];
+    console.log(animale)
+}
